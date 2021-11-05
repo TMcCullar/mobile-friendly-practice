@@ -1,5 +1,19 @@
-h1 { 
-    display: inline-block; 
-    position: relative; 
-    text-align: center; 
-} 
+h1 {
+    color: blue;
+  }
+@media (min-width: 480px) {
+    h1 {
+        color: rgb(135, 36, 216);
+    }
+}
+@media (min-width: 768px) {
+    h1 {
+        color: rgb(39, 109, 18);
+    }
+}
+@media (min-width: 1024px) {
+    h1 {
+        color: rgb(218, 47, 112);
+    }
+}
+
